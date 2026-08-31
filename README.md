@@ -21,6 +21,35 @@ A solução foi arquitetada utilizando práticas modernas de desenvolvimento de 
 
 ---
 
+## 🚀 Como Executar o Projeto
+
+### 📋 Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina o [Python 3.x](https://python.org) e o [Git](https://git-scm.com).
+
+### 🔧 Instalação e Execução
+
+1. Clone este repositório:
+```bash
+git clone https://github.com
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd network-ping-monitor
+```
+
+3. Instale as dependências (caso utilize Loguru):
+```bash
+pip install loguru
+```
+
+4. Execute o script de monitoramento:
+```bash
+python monitor.py
+```
+
+---
+
 ## 🧠 O Que Foi Aprendido com a Experiência
 O desenvolvimento deste software consolidou conceitos fundamentais de programação estruturada e automação de redes:
 * **Programação Concorrente:** Aplicação de threads para monitorar múltiplos IPs simultaneamente, eliminando gargalos sequenciais.
